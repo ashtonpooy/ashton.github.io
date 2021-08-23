@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ash</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <div id="main">
+        <canvas id="noise" class="noise fixed-fluid"></canvas>
+        <img src="vid/gif.gif" width="1910" height="1000">
+        <audio id="song" autoplay>
+            <source src="music/ooo.mp3" type="audio/mpeg">
+        </audio>
+        <div class="social">
+            <a href="https://discord.com/users/839096735425888276" target="_blank">
+                <img src="img/dc.svg">
+            </a>
+            <a href="https://twitter.com/2ash" target="_blank">
+                <img src="img/tw.svg">
+            </a>
+            <a href="https://ogusers.com/prettyboy" target="_blank">
+                <img src="img/ogu.png">
+            </a>
+            <a href="https://www.youtube.com/channel/UCM3zQh630YzxmU2f00nRl5w" target="_blank">
+                <img src="img/yt.png">
+            </a>
+            <a href="https://twitch.tv/pooy" target="_blank">
+                <img src="img/twi.png">
+            </a>
+        </div>
+        </canvas>
+    </div>
+
+    <script src="js/noise.js"></script>
+    <script>
+        var x = document.getElementById("song")
+        x.volume = 0.1;
+    </script>
+</body>
+
+</html>
